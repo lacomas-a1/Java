@@ -10,7 +10,7 @@ class triangle{
     Double result;
 
     void area(){
-        result=(length*height);
+        result=(length*height)/2;
     }
 
 }

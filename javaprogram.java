@@ -2,26 +2,25 @@ import java.util.Scanner;
 public class javaprogram {
     private static Scanner sc;
     public static void main(String[]args){
-        int a,b,c,d;
+        int Num1,Num2,Sum,Sub;
 
         sc =new Scanner(System.in);
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("Write something: ");
-        String message=scanner.nextLine();
+        System.out.println("Enter Name: ");
+        String str=sc.nextLine();
 
         System.out.println("Enter Num1:");
-        a=sc.nextInt();
+        Num1=sc.nextInt();
         System.out.println("Enter Num2: ");
-        b=sc.nextInt();
+        Num2=sc.nextInt();
 
         //computation
-        c=a+b;
-        d=a-b;
+        Sum=Num1+Num2;
+        Sub=Num1-Num2;
 
-        System.out.println("Sum:"+ c);
-        System.out.println("Subtraction:"+ d);
+        System.out.println("Sum:"+ Sum);
+        System.out.println("Subtraction:"+ Sub);
         
-        System.out.println("You wrote: "+ message);
+        System.out.println("Name: "+ str);
 
     }
 }
